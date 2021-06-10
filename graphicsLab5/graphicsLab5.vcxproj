@@ -115,6 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="PointList.cpp" />
+    <ClCompile Include="Qube.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TriangleList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PointList.h" />
+    <ClInclude Include="Qube.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="TriangleList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
